@@ -5932,8 +5932,19 @@
     padding-top: 25px !important; } }
 
 @media only screen and (max-width: 767px) {
+  .footer-links{
+    display: none;
+  }
+  .li-banner{
+    display: none;
+  }
+  .single-banner{
+    display: none;
+  }
   .pt-xs-30 {
-    padding-top: 30px !important; } }
+    padding-top: 30px !important;
+  } 
+}
 
 @media only screen and (max-width: 767px) {
   .pt-xs-35 {

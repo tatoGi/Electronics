@@ -1436,7 +1436,17 @@ textarea:focus {
 }
 /*Header Middle*/
 .header-middle {
-	padding: 30px;
+	padding: 20px;
+}
+.logo-effect {
+	cursor: pointer;
+    color: white; /* Set the color to white */
+    transition: color 0.3s ease; /* Add transition effect for color change */
+}
+
+.logo-effect:hover {
+    color: red; /* Change the color on hover (you can adjust to any color you prefer) */
+    text-decoration: underline; /* Add underline effect on hover (optional) */
 }
 .hm-searchbox {
 	display: flex;
@@ -1768,7 +1778,7 @@ textarea:focus {
 .hb-menu nav > ul > li:hover > a::after {
 		color: #ffffff;
 }
-.hb-menu nav > ul > li > a::after {
+/* .hb-menu nav > ul > li > a::after {
 	content: "\f107";
 	position: absolute;
 	top: 8px;
@@ -1777,7 +1787,7 @@ textarea:focus {
 	font-size: 18px;
 	transition: all 0.3s ease-in-out;
 	color: #242424;
-}
+} */
 .hb-menu nav > ul > li:nth-child(n+5) > a::after {
 	content: none;
 }
