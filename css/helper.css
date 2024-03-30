@@ -5932,6 +5932,9 @@
     padding-top: 25px !important; } }
 
 @media only screen and (max-width: 767px) {
+  .logo-main{
+    left: 20%;
+  }
   .footer-links{
     display: none;
   }
